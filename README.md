@@ -1,6 +1,6 @@
 # Assignment B
 
-# Author: Mathias DELHAYE, 1st year PhD student in Neuroscience
+## Author: Mathias DELHAYE, 1st year PhD student in Neuroscience
 
 ## 2021 1st Winter term
 
