@@ -25,9 +25,7 @@ library(palmerpenguins)
 #' 
 #' @params data is a table
 #' @params x is the name of the variable for which we want to count the number of iteration for the different possibilities
-#' 
 #' @return a plot of columns in the decreasing order, showing the counts for every possibilities of the variable of interest
-#' 
 #' @examples
 #' counting_iteration(vancouver_trees, neighbourhood_name), to count the iteration of each neighbourhood in the dataset vancouver_trees
 #' counting_iteration(penguins, species) to count the iteration of each specie in the dataset penguins
