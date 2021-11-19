@@ -4,7 +4,7 @@
 #'
 #' @param data is a dataframe or a tibble
 #' @param x is the name of the variable for which we want to count the number of iteration for the different possibilities
-#' @return a plot of columns in the decreasing order, showing the counts for every possibilities of the variable of interest
+#' @return a histogram in the decreasing order, showing the counts for every possibility of the variable of interest
 #' @examples
 #' counting_iteration(palmerpenguins::penguins, species)
 #' counting_iteration(dplyr::starwars, homeworld)

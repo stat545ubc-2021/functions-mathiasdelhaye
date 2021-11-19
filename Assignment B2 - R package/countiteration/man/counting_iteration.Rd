@@ -12,7 +12,7 @@ counting_iteration(data, x)
 \item{x}{is the name of the variable for which we want to count the number of iteration for the different possibilities}
 }
 \value{
-a plot of columns in the decreasing order, showing the counts for every possibilities of the variable of interest
+a histogram in the decreasing order, showing the counts for every possibility of the variable of interest
 }
 \description{
 This function count the number of iteration for the different possibilities of one variable of a table
