@@ -6,7 +6,6 @@
 #' @param x is the name of the variable for which we want to count the number of iteration for the different possibilities
 #' @return a plot of columns in the decreasing order, showing the counts for every possibilities of the variable of interest
 #' @examples
-#' counting_iteration(datateachr::vancouver_trees, neighbourhood_name)
 #' counting_iteration(palmerpenguins::penguins, species)
 #' counting_iteration(dplyr::starwars, homeworld)
 #'

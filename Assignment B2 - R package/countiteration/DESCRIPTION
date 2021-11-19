@@ -17,7 +17,6 @@ Imports:
     magrittr,
     forcats,
     palmerpenguins,
-    datateachr,
     gapminder
 Suggests: 
     testthat (>= 3.0.0)

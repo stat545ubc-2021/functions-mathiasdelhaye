@@ -18,7 +18,6 @@ a plot of columns in the decreasing order, showing the counts for every possibil
 This function count the number of iteration for the different possibilities of one variable of a table
 }
 \examples{
-counting_iteration(datateachr::vancouver_trees, neighbourhood_name)
 counting_iteration(palmerpenguins::penguins, species)
 counting_iteration(dplyr::starwars, homeworld)
 
