@@ -3,7 +3,7 @@ Title: Easy counting of iteration
 Version: 0.1.0
 Authors@R: 
     person("Mathias", "Delhaye", , "Mathias.Delhaye@outlook.com", role = c("aut", "cre"))
-Description: Take in entry a tibble and a variable of interest from that tibble. 
+Description: Take in entry a tibble or a dataframe and a variable of interest from that tibble or dataframe. 
              Count the number of iteration for the each possibility of that variable, without taking in account the NA.
              Return a histogram showing in the decreasing order the number of iteration for each possibility. 
 License: MIT + file LICENSE

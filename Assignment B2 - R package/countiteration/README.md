@@ -7,9 +7,9 @@
 <!-- badges: end -->
 
 The goal of countiteration is to count the number of iteration of each
-possibility of a variable from a tibble. This does not include the NA
-that can be found in the variable. This function doesn’t work on
-numerical variable.
+possibility of a variable from a tibble or a dataframe. This does not
+include the NA that can be found in the variable. This function doesn’t
+work on numerical variable.
 
 ## Installation
 
@@ -18,7 +18,7 @@ You can install the development version of countiteration from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2021/functions-mathiasdelhaye")
+devtools::install_github("stat545ubc-2021/functions-mathiasdelhaye/Assignment B2 - R package/countiteration")
 ```
 
 ## Example

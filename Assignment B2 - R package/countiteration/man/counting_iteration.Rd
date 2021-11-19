@@ -7,7 +7,7 @@
 counting_iteration(data, x)
 }
 \arguments{
-\item{data}{is a table}
+\item{data}{is a dataframe or a tibble}
 
 \item{x}{is the name of the variable for which we want to count the number of iteration for the different possibilities}
 }
