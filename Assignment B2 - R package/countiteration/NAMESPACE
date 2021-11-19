@@ -3,3 +3,5 @@
 export("%>%")
 export(counting_iteration)
 importFrom(magrittr,"%>%")
+importFrom(rlang,":=")
+importFrom(rlang,.data)

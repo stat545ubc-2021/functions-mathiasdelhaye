@@ -1,7 +1,7 @@
 test_that("counting_iteration function", {
   expect_equal(
     as.character(rlang::get_expr(counting_iteration(palmerpenguins::penguins,
-                                                    species)$mapping$y)), "n") #checking the name of the y axis
+                                                    species)$mapping$y)), c("$", ".data", "n")) #checking the name of the y axis
   expect_equal(
     as.character(rlang::get_expr(counting_iteration(palmerpenguins::penguins,
                                                     species)$mapping$x)), "species") #checking the name of the y axis

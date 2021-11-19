@@ -9,6 +9,8 @@
 #' counting_iteration(palmerpenguins::penguins, species)
 #' counting_iteration(dplyr::starwars, homeworld)
 #'
+#' @importFrom rlang :=
+#' @importFrom rlang .data
 #' @export
 
 counting_iteration <- function (data, x) {
@@ -16,8 +18,8 @@ counting_iteration <- function (data, x) {
     dplyr::group_by({{x}})%>%
     dplyr::summarise(n=dplyr::n())%>%
     tidyr::drop_na()%>%
-    dplyr::mutate({{x}} := forcats::fct_reorder({{x}}, n))%>%
-    ggplot2::ggplot(ggplot2::aes({{x}}, n))+
+    dplyr::mutate({{x}} := forcats::fct_reorder({{x}}, .data$n))%>%
+    ggplot2::ggplot(ggplot2::aes({{x}}, .data$n))+
     ggplot2::geom_col()+
     ggplot2::coord_flip()
 }
